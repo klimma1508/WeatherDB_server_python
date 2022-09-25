@@ -8,3 +8,21 @@ Plans to the future:
 - [ ] web page to show graph of stored data
 - [ ] fetch data from weather API and compare to actual weather
 - [ ] add project files for ESP
+
+Example request:
+
+/send
+```
+{
+    "IO": "OUT",
+    "ROOM": "North",
+    "SENSORS": {
+        "temp": "20",
+        "hum": "65",
+        "press": "123",
+        "tempSet": "19",
+        "humSet": "50",
+        "Quality": "None"
+    }
+}
+```
